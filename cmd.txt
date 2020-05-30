@@ -1,0 +1,4 @@
+python train_frcnn.py -p /path/to/pascalvoc/
+python train_frcnn.py -o simple -p C:\Users\vinay\Desktop\data\images\train\training_images_labels.txt
+/data/imgs/img_001.jpg,837,346,981,456,cow
+python test_frcnn.py -p C:\Users\vinay\Desktop\frcnnnn\test_images
